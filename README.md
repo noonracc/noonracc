@@ -31,11 +31,11 @@ I'm Stanisław Sołtysik, a **Polish Software Developer** and a student at the *
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
 </p>
 
-## 📈 GitHub Stats
+<!--- ## 📈 GitHub Stats
 
 ![Stanisław's GitHub stats](https://github-readme-stats.vercel.app/api?username=noonracc&show_icons=true&theme=nord)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=noonracc&layout=compact&theme=nord)
-
+--->
 ## 🔗 Connect with me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stanislaw-soltysik-profile)
