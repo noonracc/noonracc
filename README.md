@@ -1,42 +1,22 @@
-```java
-package dev.noonracc.me;
-
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import java.util.List;
-
-@RestController
-@RequestMapping("/api/v1/about-me")
-public class DeveloperController {
-
-    @GetMapping
-    public DeveloperProfile getProfile() {
-        return DeveloperProfile.builder()
-            .firstName("Stanisław")
-            .lastName("Sołtysik")
-            .role("Fullstack Developer")
-            .coreTechnologies(List.of("Java", "SQL", "React"))
-            .backPainStatus("Loading...")
-            .build();
-    }
-
-    @GetMapping("/education")
-    public EducationInfo getEducationInfo() {
-        return EducationInfo.builder()
-            .isStudying(true)
-            .degree("Computer Science")
-            .university("Polish-Japanese Academy of Information Technology")
-            .build();
-    }
-
-    @GetMapping("/contact")
-    public ContactInfo getContact() {
-        return ContactInfo.builder()
-            .email("soltysikstanislaw@wp.pl")
-            .linkedIn("linkedin.com/in/stanislaw-soltysik-profile")
-            .build();
-    }
+```json
+{
+  "status": "200 OK",
+  "developer": {
+    "firstName": "Stanisław",
+    "lastName": "Sołtysik",
+    "role": "Fullstack Developer",
+    "coreTechnologies": ["Java", "SQL", "React"],
+    "backPainStatus": "Loading... ⏳"
+  },
+  "education": {
+    "isStudying": true,
+    "degree": "Computer Science",
+    "university": "Polish-Japanese Academy of Information Technology"
+  },
+  "contact": {
+    "email": "soltysikstanislaw@wp.pl",
+    "linkedIn": "https://linkedin.com/in/stanislaw-soltysik-profile"
+  }
 }
 ```
 
